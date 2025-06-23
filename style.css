@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    font-size: 50px;
+}
+li{
+    font-size: 25px;
+    color: #ccc;
+    width: 270px;
+    list-style-type: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #ffffff;
+    align-items: center;
+
+}
+.header{
+    text-align: center;
+    display: inline-block;
+}
+#taskList{
+    padding: 20px;
+}
+
+li button{
+    border-radius: 50%;
+    height:25px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+
+body {
+    text-align: center;
+    margin-top: 5%;
+    padding: 30px;
+    background-image: url(wp5287121.png);
+}
+
+.main-container {
+    padding-top: 50px;
+}
+
+#addTask {
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(177, 212, 236);
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid rgb(56, 206, 235);
+    transition: 0.5s;
+}
+#addTask:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+#taskInput {
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+    background: transparent;
+    margin-top: 30px;
+}
+input::placeholder{
+    color: white;
+}
+input {
+      color: white; /* text inside input */
+      padding: 10px;
+      border: 2px solid #ccc;
+    }
+    

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2> To-Do List</h2>
+  <input type="text" id="taskInput" placeholder="Add a task....">
+  <button id="addTask">Add</button>
+  <div class="main-first"><br>
+    <div class="header">
+      <ul id="taskList"></ul>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- // Get elements
+const input = document.getElementById("taskInput");
+const button = document.getElementById("addTask");
+const list = document.getElementById("taskList");
+
+// Add Task Function
+button.addEventListener("click", () => {
+  const taskText = input.value.trim();
+  if (taskText !== "") {
+    const li = document.createElement("li");
+    li.textContent = taskText;
+
+    // Add delete button
+    const delBtn = document.createElement("button");
+    delBtn.textContent = "♨️";
+    delBtn.style.marginLeft = "10px";
+    delBtn.addEventListener("click", () => li.remove());
+
+    li.appendChild(delBtn);
+    list.appendChild(li);
+    input.value = "";
+  }
+}); -->
